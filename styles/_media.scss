@@ -1,77 +1,4 @@
 
-@media screen and (max-width: 600px){
-   
-
-    .about-container{
-        grid-template-columns: 1fr;
-        .right-about{
-            grid-template-columns: 1fr;
-            padding-top: 2.5rem;
-        }
-        .left-about{
-            padding-right: 0;
-            p{
-                padding-left: 0;
-            }
-        }
-    }
-
-    .timeline{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
-
-    .about-stats{
-        .progress-bars{
-            grid-template-columns: 1fr;
-        }
-    }
-
-    .portfolios{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
-
-    .blogs{
-        grid-template-columns: 1fr;
-        padding-bottom: 6rem;
-    }
-
-    .contact-content-con{
-        flex-direction: column;
-        .right-contact{
-            margin-left: 0;
-            margin-top: 2.5rem;
-        }
-    }
-
-    .contact-content-con .right-contact .i-ctrl-2{
-        flex-direction: column;
-    }
-    .contact-content-con .right-contact .i-ctrl-2 :last-child{
-        margin-left: 0 !important;
-        margin-top: 1.5rem;
-
-    }
-
-    .section{
-        padding: 2rem 2.5rem;
-    }
-
-    .main-title{
-        h2{
-            font-size: 2 rem;
-            span{
-                font-size: 2.5rem;
-            }
-            .bg-text{
-                font-size: 3rem;
-            }
-        }
-    }
-
-   
-}
 
 @media screen and (max-width: 1430px){
 
@@ -208,4 +135,94 @@ grid-template-columns: 1fr;
             }
         }
     }
+}
+
+@media screen and (max-width: 600px){
+   
+  
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .about-stats{
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .blogs{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .contact-content-con{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+    .contact-content-con .left-contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact-icon{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contact-info{
+        font-size: small;
+
+    }
+
+    .contact-content-con .right-contact .i-ctrl-2{
+        flex-direction: column;
+    }
+    .contact-content-con .right-contact .i-ctrl-2 :last-child{
+        margin-left: 0 !important;
+        margin-top: 1.5rem;
+
+    }
+
+    .section{
+        padding: 2rem 2.5rem;
+    }
+
+    .main-title{
+        h2{
+            font-size: 2 rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }
+   
+  
+   
 }
